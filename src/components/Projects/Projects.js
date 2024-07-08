@@ -23,7 +23,7 @@ function Projects() {
             <ProjectCard
               imgPath={peermeet}
               title="PeerMeet"
-              description="An easy-to-use video conferencing tool for virtual meetings. Enjoy high-quality video and audio with minimal delays. Key features include real-time chat, screen sharing, Picture-in-Picture (PiP) mode, cloud meeting recording, and simple invitations. Built with React.js, Tailwind CSS, Node.js, Express.js, and WebRTC, this tool offers a reliable and professional solution for all your online meeting needs."
+              description="An easy-to-use video conferencing tool for virtual meetings. Enjoy high-quality video and audio with minimal delays. Key features include real-time chat, screen sharing, Picture-in-Picture (PiP) mode, cloud meeting recording, and simple invitations. Built with React.js, Tailwind CSS, Node.js, Express.js, and WebRTC, this tool offers a reliable and professional solution for all your online meeting needs. (It's a free server so server might take 1-2min to start initially)"
               ghLink="https://github.com/sayakghorai34/PeerMeet"
               demoLink="https://sg34-peermeet.web.app/"
             />
@@ -33,7 +33,7 @@ function Projects() {
             <ProjectCard
               imgPath={librarymanager}
               title="Library Manager"
-              description="A simple Library Management tool for librarians that allows them to add, delete, and update books, authors, borrowers/users in the database. They can also checkin-checkout books with borrowers, generate borrowing receipt etc.. Built with React.js, tailwind css, Node.js, Express.js, and MongoDB, this tool offers a user-friendly interface for librarians to manage their library efficiently."
+              description="A simple Library Management tool for librarians that allows them to add, delete, and update books, authors, borrowers/users in the database. They can also checkin-checkout books with borrowers, generate borrowing receipt etc.. Built with React.js, tailwind css, Node.js, Express.js, and MongoDB, this tool offers a user-friendly interface for librarians to manage their library efficiently. (It's a free server so server might take 1-2min to start initially)"
               ghLink="https://github.com/sayakghorai34/Library-Management-System"
               demoLink="https://sg34-library-manager.netlify.app/"
             />

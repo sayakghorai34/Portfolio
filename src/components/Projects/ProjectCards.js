@@ -10,7 +10,7 @@ function ProjectCards(props) {
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
-        <Card.Text style={{ textAlign: "center", textJustify:"auto", fontSize:18 }}>
+        <Card.Text style={{ textAlign: "justify", textJustify:"auto", fontSize:18 }}>
           {props.description}
         </Card.Text>
         {props.ghLink &&(<Button variant="primary" href={props.ghLink} target="_blank">
