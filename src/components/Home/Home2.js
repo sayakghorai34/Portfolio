@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/profile.png";
 import Tilt from "react-parallax-tilt";
 import { AiFillGithub, AiOutlineMail, AiOutlinePhone } from "react-icons/ai";
-import { FaLinkedinIn,FaKaggle } from "react-icons/fa";
+import { FaLinkedinIn, FaKaggle } from "react-icons/fa";
 
 function Home2() {
   return (
@@ -11,47 +11,39 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
+            <h1 style={{ fontSize: "2em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I started programming on 2021 and so far I can see I have improved quite a bit🤷‍♂️
+              I started programming in 2021 and have grown a lot since then.
               <br />
-              <br />I am comfortable with
+              <br />
+              I'm skilled in
               <i>
-                <b className="purple"> Python, Java and Javascript. </b>
+                <b className="purple"> Python, Java, and JavaScript. </b>
               </i>
               <br />
-              <br />
-              I love to spend time on building new &nbsp;
+              <br />I enjoy building
               <i>
-                <b className="purple">Web Applications </b> and
-                also explore and develop in areas related to{" "}
-                <b className="purple">
-                  Artificial Intelligence, Machine Learning, Deep Learning and
-                  Computer Vision.
-                </b>
-              </i>
-              <br />
-              <br />
-              Mostly I build backends using <b className="purple">Express.js, Node.js</b> and use 
-              <i>
+                <b className="purple"> web applications</b> and working on
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  AI, Machine Learning, Deep Learning, and Computer Vision.
                 </b>
               </i>
-              &nbsp; like
+              <br />
+              <br />I mainly develop backends with
+              <b className="purple"> Express.js and Node.js</b> and use
               <i>
-                <b className="purple"> React.js</b> for frontend development.
+                <b className="purple"> React.js</b> for frontends.
               </i>
-              <br/>
-              <br/>
-              <i>
-                <b className="purple">Python and Jupyter notebook</b> is my go to for Machine Learning and Deep Learning projects.
-              </i>
+              <br />
+              <br />
+              For Machine Learning projects, I prefer using
+              <b className="purple"> Python and Jupyter Notebook.</b>
             </p>
           </Col>
+
           <Col md={4} className="myAvtar">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="profile" />
@@ -60,7 +52,7 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+            <h1 style={{paddingTop:100,fontSize:'2em'}}>FIND ME ON</h1>
             <p>
               Feel free to <span className="purple">connect </span>with me
             </p>
@@ -76,7 +68,6 @@ function Home2() {
                 </a>
               </li>
 
-              
               <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/sayak-ghorai-aab0a9211/"
@@ -120,7 +111,6 @@ function Home2() {
                   <AiOutlinePhone />
                 </a>
               </li>
-
             </ul>
           </Col>
         </Row>

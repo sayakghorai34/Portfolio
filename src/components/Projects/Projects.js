@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import emotion from "../../Assets/Projects/CNN_FERS.png";
 import peermeet from "../../Assets/Projects/PeerMeet.png";
+import iot from "../../Assets/Projects/IoT.png";
 import librarymanager from "../../Assets/Projects/LibraryManager.png";
 
 function Projects() {
@@ -37,7 +38,8 @@ function Projects() {
               demoLink="https://sg34-library-manager.netlify.app/"
             />
           </Col>
-
+          </Row>
+          <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
@@ -45,6 +47,16 @@ function Projects() {
               title="Human Face Emotion Detection"
               description="In this research, we used Convolutional Neural Networks (CNN) to recognize facial expressions. Our developed from scratch CNN achieved 62% accuracy on the FER2013 dataset after several fine tuning. We also studied other datasets, found limitations, and tried Residual and Parallel blocks. We used Python, TensorFlow, Keras, and Scikit-learn in this research."
               demoLink="https://docs.google.com/document/d/1zoatTJJlP62_879YzY3hZ83zJbL4VFEaGktIoh-GeM8/edit?usp=sharing"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={iot}
+              isDoc={true}
+              title="IoT Based Healthcare System"
+              description="We created an IoT-based healthcare system for remote patient monitoring. Patients and doctors have their own dashboards, allowing patients to update health data and doctors to monitor and chat with them in real time. The system uses sensors to measure SpO2, heart rate, and body temperature, sending this data to the doctor via a cloud database. Technologies used include NodeMCU, Arduino Uno, JavaFX, MySQL, and various sensors."
+              demoLink="https://docs.google.com/document/d/12igc7Mr_pgR4XFhPBsG6lcbrY0LrM1Tl9ZFhBAh1Kc8/edit?usp=sharing"
             />
           </Col>
         </Row>
