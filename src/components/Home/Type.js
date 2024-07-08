@@ -6,12 +6,12 @@ function Type() {
     <Typewriter
       options={{
         strings: [
-          "MERN Stack",
           "Artificial Intelligence",
           "Machine Learning",
           "Deep Learning",
           "Computer Vision",
-          "Natural Language Processing"
+          "Natural Language Processing",
+          "MERN Stack"
         ],
         autoStart: true,
         loop: true,
