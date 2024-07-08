@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/Sayak_Ghorai_NIIT_University.pdf";
+import pdf from "../../Assets/../Assets/Sayak_Ghorai_Resume_NIIT_University.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -24,10 +24,10 @@ function ResumeNew() {
             variant="primary"
             href={pdf}
             target="_blank"
-            style={{ maxWidth: "210px" }}
+            style={{ maxWidth: "265px" }}
           >
             <AiOutlineDownload />
-            &nbsp;Download CV
+            &nbsp;Download Resume
           </Button>
         </Row>
 
@@ -42,10 +42,10 @@ function ResumeNew() {
             variant="primary"
             href={pdf}
             target="_blank"
-            style={{ maxWidth: "210px" }}
+            style={{ maxWidth: "265px" }}
           >
             <AiOutlineDownload />
-            &nbsp;Download CV
+            &nbsp;Download Resume
           </Button>
         </Row>
       </Container>
