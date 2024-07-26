@@ -3,6 +3,7 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
+import { FaKaggle } from "react-icons/fa";
 
 function ProjectCards(props) {
   return (
@@ -29,6 +30,17 @@ function ProjectCards(props) {
           >
             <CgWebsite /> &nbsp;
             {props.isDoc? "Read Research": "Demo"}
+          </Button>
+        )}
+        {props.kaggleLink && (
+          <Button
+            variant="primary"
+            href={props.kaggleLink}
+            target="_blank"
+            style={{ marginLeft: "10px" }}
+          >
+            <FaKaggle /> &nbsp;
+            {"Kaggle"}
           </Button>
         )}
       </Card.Body>

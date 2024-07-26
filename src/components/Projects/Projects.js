@@ -6,6 +6,7 @@ import emotion from "../../Assets/Projects/CNN_FERS.png";
 import peermeet from "../../Assets/Projects/PeerMeet.png";
 import iot from "../../Assets/Projects/IoT.png";
 import librarymanager from "../../Assets/Projects/LibraryManager.png";
+import wifi_csi from "../../Assets/Projects/Wifi_CSI.png";
 
 function Projects() {
   return (
@@ -38,8 +39,6 @@ function Projects() {
               demoLink="https://sg34-library-manager.netlify.app/"
             />
           </Col>
-          </Row>
-          <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
@@ -49,7 +48,17 @@ function Projects() {
               demoLink="https://docs.google.com/document/d/1zoatTJJlP62_879YzY3hZ83zJbL4VFEaGktIoh-GeM8/edit?usp=sharing"
             />
           </Col>
-
+          </Row>
+          <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={wifi_csi}
+              title="Human Activity Recognition using WiFi CSI"
+              description="I have developed a machine learning model for classifying human activities using WiFi Channel State Information (CSI) data. Leveraging existing code, the project primarily focused on understanding model architecture, fine-tuning, and hyperparameter tuning. The model employs a Long Short-Term Memory (LSTM) network to classify activities such as bending, falling, lying down, running, sitting down, standing up, and walking. It achieved an accuracy of 88-90% on the CSI-HAR dataset. The development was carried out using Python, TensorFlow, and Keras, with a focus on LSTM for sequence prediction and classification."
+              ghLink="https://github.com/sayakghorai34/HAR-using-CSI.git"
+              kaggleLink="https://www.kaggle.com/code/sayakghorai34/csi-har-notebook"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={iot}
