@@ -54,7 +54,7 @@ function Projects() {
             <ProjectCard
               imgPath={wifi_csi}
               title="Human Activity Recognition using WiFi CSI"
-              description="I have developed a machine learning model for classifying human activities using WiFi Channel State Information (CSI) data. Leveraging existing code, the project primarily focused on understanding model architecture, fine-tuning, and hyperparameter tuning. The model employs a Long Short-Term Memory (LSTM) network to classify activities such as bending, falling, lying down, running, sitting down, standing up, and walking. It achieved an accuracy of 88-90% on the CSI-HAR dataset. The development was carried out using Python, TensorFlow, and Keras, with a focus on LSTM for sequence prediction and classification."
+              description="I have developed a machine learning model for classifying human activities using WiFi Channel State Information (CSI) data. Leveraging existing code, the project primarily focused on understanding model architecture, fine-tuning, and hyperparameter tuning. The model employs a Long Short-Term Memory (LSTM) and Convolutional Neural Network (CNN) network to classify activities such as bending, falling, lying down, running, sitting down, standing up, and walking. It achieved an accuracy of 88-90% on the CSI-HAR dataset. The development was carried out using Python, TensorFlow, and Keras, with a focus on LSTM for sequence prediction and classification."
               ghLink="https://github.com/sayakghorai34/HAR-using-CSI.git"
               kaggleLink="https://www.kaggle.com/code/sayakghorai34/csi-har-notebook"
             />
