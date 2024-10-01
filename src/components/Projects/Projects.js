@@ -7,6 +7,8 @@ import peermeet from "../../Assets/Projects/PeerMeet.png";
 import iot from "../../Assets/Projects/IoT.png";
 import librarymanager from "../../Assets/Projects/LibraryManager.png";
 import wifi_csi from "../../Assets/Projects/Wifi_CSI.png";
+import dcgan from "../../Assets/Projects/DCGAN.png";
+import laneDetection from "../../Assets/Projects/LaneDetection.png";
 
 function Projects() {
   return (
@@ -24,7 +26,7 @@ function Projects() {
             <ProjectCard
               imgPath={peermeet}
               title="PeerMeet"
-              description="An easy-to-use video conferencing tool for virtual meetings. Enjoy high-quality video and audio with minimal delays. Key features include real-time chat, screen sharing, Picture-in-Picture (PiP) mode, cloud meeting recording, and simple invitations. Built with React.js, Tailwind CSS, Node.js, Express.js, and WebRTC, this tool offers a reliable and professional solution for all your online meeting needs. (It's a free server so server might take 1-2min to start initially)"
+              description="An easy-to-use video conferencing tool for virtual meetings. Enjoy high-quality video and audio with minimal delays. Key features include real-time chat, screen sharing, Picture-in-Picture (PiP) mode, cloud meeting recording, and simple invitations. Built with React.js, Tailwind CSS, Node.js, Express.js, and WebRTC."
               ghLink="https://github.com/sayakghorai34/PeerMeet"
               demoLink="https://sg34-peermeet.web.app/"
             />
@@ -34,31 +36,50 @@ function Projects() {
             <ProjectCard
               imgPath={librarymanager}
               title="Library Manager"
-              description="A simple Library Management tool for librarians that allows them to add, delete, and update books, authors, borrowers/users in the database. They can also checkin-checkout books with borrowers, generate borrowing receipt etc.. Built with React.js, tailwind css, Node.js, Express.js, and MongoDB, this tool offers a user-friendly interface for librarians to manage their library efficiently. (It's a free server so server might take 1-2min to start initially)"
+              description="A Library Management tool for librarians allowing them to manage books, authors, borrowers, and check-ins/outs efficiently. Built with React.js, Tailwind CSS, Node.js, Express.js, and MongoDB."
               ghLink="https://github.com/sayakghorai34/Library-Management-System"
               demoLink="https://sg34-library-manager.netlify.app/"
             />
           </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
               isDoc={true}
               title="Human Face Emotion Detection"
-              description="In this research, we used Convolutional Neural Networks (CNN) to recognize facial expressions. Our developed from scratch CNN achieved 62% accuracy on the FER2013 dataset after several fine tuning. We also studied other datasets, found limitations, and tried Residual and Parallel blocks. We used Python, TensorFlow, Keras, and Scikit-learn in this research."
+              description="Using CNNs, this project recognizes facial expressions. Achieved 63% accuracy on the FER2013 dataset and 68% on AffectNet. The project used Python, TensorFlow, and Keras."
               demoLink="https://docs.google.com/document/d/1zoatTJJlP62_879YzY3hZ83zJbL4VFEaGktIoh-GeM8/edit?usp=sharing"
             />
           </Col>
-          </Row>
-          <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={wifi_csi}
               title="Human Activity Recognition using WiFi CSI"
-              description="I have developed a machine learning model for classifying human activities using WiFi Channel State Information (CSI) data. Leveraging existing code, the project primarily focused on understanding model architecture, fine-tuning, and hyperparameter tuning. The model employs a Long Short-Term Memory (LSTM) and Convolutional Neural Network (CNN) network to classify activities such as bending, falling, lying down, running, sitting down, standing up, and walking. It achieved an accuracy of 95% on the CSI-HAR dataset. The development was carried out using Python, TensorFlow, and Keras, with a focus on LSTM for sequence prediction and classification."
+              description="Developed a machine learning model for classifying human activities using WiFi Channel State Information (CSI) data. Achieved 95% accuracy using an LSTM network. Built with Python, TensorFlow, and Keras."
               ghLink="https://github.com/sayakghorai34/HAR-using-CSI.git"
               kaggleLink="https://www.kaggle.com/code/sayakghorai34/csi-har-notebook"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={dcgan}
+              title="DCGAN Implementation"
+              description="Implemented Deep Convolutional GANs from scratch in PyTorch. First tested on the MNIST dataset, then expanded to the CelebA dataset."
+              kaggleLink="https://www.kaggle.com/code/sayakghorai34/dcgan-rgb"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={laneDetection}
+              title="Real-Time Lane Detection"
+              description="Built a real-time lane detection system using Canny Edge Detection and Hough Transform. The system processes a 27-second 720p video (50 FPS) in 35 seconds."
+              ghLink="https://github.com/sayakghorai34/Real_Time_Lane_Detection.git"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={iot}
