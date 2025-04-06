@@ -8,32 +8,39 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Sayak Ghorai</span> from{" "}
+            Hi! I'm <span className="purple">Sayak Ghorai</span> from{" "}
             <span className="purple">Kolkata, India</span>.
+            <br /><br />
+            I'm fascinated by the intersection of technology and real-world problem solving. 
+            My journey in tech has been driven by curiosity and a desire to create impactful solutions.
+            <br/><br/>
+            🎓 I'm pursuing my BTech in Computer Science student at{" "}
+            <span className="purple">NIIT University, Neemrana</span>
+            <br/>
+            💼 Currently interning at
+            <span className="purple"> GE Appliances</span>, Bangalore
+            <br /><br/>
+            💡 Passionate about:
+            <ul className="about-interests">
+              <li>Machine Learning</li>
+              <li>Backend Development</li>
+              <li>Problem Solving</li>
+            </ul>
             <br />
-            I am a BTech 4th year student at NIIT University, passionate about
-            Machine Learning and Web Development.
-            <br />
-            I enjoy backend development and have worked on several projects.
-            <br />
-            Besides coding, I love participating in coding competitions and
-            cultural events as a singer and guitarist.
-            <br />
-            <br />
-            Here are some of my hobbies:
+            🎵 When not coding, you'll find me:
           </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Guitar
+          <ul className="about-activity">
+            <li>
+              <ImPointRight /> Playing Guitar & Singing
             </li>
-            <li className="about-activity">
-              <ImPointRight /> Singing
+            <li>
+              <ImPointRight /> Capturing Moments through Photography
             </li>
-            <li className="about-activity">
-              <ImPointRight /> Reading Story Books
+            <li>
+              <ImPointRight /> Reading Stories
             </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling
+            <li>
+              <ImPointRight /> Exploring New Places
             </li>
           </ul>
         </blockquote>

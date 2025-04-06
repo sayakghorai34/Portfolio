@@ -15,32 +15,32 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I started programming in 2021 and have grown a lot since then.
+              Hi there! I'm a passionate programmer who embarked on this exciting journey in 2021.
               <br />
               <br />
-              I'm skilled in
+              I specialize in
               <i>
-                <b className="purple"> Python, Java, and JavaScript. </b>
+                <b className="purple"> Python, Java, and JavaScript, </b>
               </i>
-              <br />
-              <br />I enjoy building
+              and love crafting
               <i>
-                <b className="purple"> web applications</b> and working on
-                <b className="purple">
-                  {" "}
-                  AI, Machine Learning, Deep Learning, and Computer Vision.
-                </b>
-              </i>
-              <br />
-              <br />I mainly develop backends with
-              <b className="purple"> Express.js and Node.js</b> and use
-              <i>
-                <b className="purple"> React.js</b> for frontends.
+                <b className="purple"> web applications</b> while exploring the realms of
+                <b className="purple"> AI, Machine Learning, and Computer Vision.</b>
               </i>
               <br />
               <br />
-              For Machine Learning projects, I prefer using
-              <b className="purple"> Python and Jupyter Notebook.</b>
+              My expertise lies in building robust backends with
+              <b className="purple"> Express.js and Node.js</b> and creating dynamic frontends using
+              <i>
+                <b className="purple"> React.js.</b>
+              </i>
+              <br />
+              <br />
+              When it comes to Machine Learning, I enjoy working with
+              <b className="purple"> Python and Jupyter Notebook</b> to bring ideas to life.
+              <br />
+              <br />
+              Let's create something amazing together!
             </p>
           </Col>
 

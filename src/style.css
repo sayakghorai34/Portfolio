@@ -296,8 +296,8 @@ button:focus {
 
 @media (max-width: 767px) {
   .Typewriter__wrapper {
-    font-size: 1.4em !important;
-    font-weight: 500 !important;
+    font-size: 1.1em !important;
+    font-weight: 300 !important;
     position: absolute !important;
   }
   .Typewriter__cursor {
@@ -671,4 +671,100 @@ button:focus {
 }
 .fork-btn-inner::after {
   display: none !important;
+}
+
+.pdf-page {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.pdf-page canvas {
+  max-width: 100%;
+  height: auto !important;
+  margin: 0 auto;
+}
+
+
+.button-container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;  /* Center the buttons horizontally */
+  align-items: center;     /* Center the buttons vertically */
+  width: 100%;
+}
+
+.button-container button {
+  margin: 0;
+  flex-grow: 0;
+}
+
+/* Desktop styles */
+@media (min-width: 768px) {
+  .button-spacing {
+    margin-left: 10px !important;
+  }
+}
+
+/* Mobile styles */
+@media (max-width: 767px) {
+  .button-container {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .button-container button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .button-spacing {
+    margin-left: 0 !important;
+  }
+}
+
+.about-interests {
+  list-style: none;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.about-interests li {
+  margin-bottom: 5px;
+  position: relative;
+}
+
+.about-interests li:before {
+  content: "•";
+  color: #c45bf5;
+  font-weight: bold;
+  position: absolute;
+  left: -15px;
+}
+
+.about-activity {
+  margin-top: 10px;
+}
+
+.about-activity li {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.about-activity svg {
+  color: #c45bf5;
+  margin-right: 10px;
+}
+
+@media (max-width: 767px) {
+  .blockquote {
+    font-size: 0.95rem;
+  }
+  
+  .about-interests,
+  .about-activity {
+    font-size: 0.9rem;
+  }
 }
