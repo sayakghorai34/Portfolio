@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Sayak | Portfolio",
+  "name": "Sayak Ghorai | Digital Portfolio",
+  "description": "A digital portfolio showcasing my work and skills.",
   "icons": [
     {
       "src": "favicon.ico",
